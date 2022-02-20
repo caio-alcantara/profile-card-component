@@ -111,6 +111,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   color: #6a6f81;
+  letter-spacing: 3px;
 }
 
 @media screen and (max-width: 435px) {
