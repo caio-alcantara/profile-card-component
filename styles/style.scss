@@ -1,0 +1,19 @@
+// Variables
+/// Primary
+
+$dark-cyan: hsl(185, 75%, 39%);
+$very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$dark-grayish-blue: hsl(227, 10%, 46%);
+
+/// Neutral
+
+$dark-gray: hsla(0, 0%, 59%, 0.301);
+
+// Font
+
+$standar-font: 'Kumbh Sans', sans-serif;
+
+// Imports
+
+@import "general";
+@import "card"

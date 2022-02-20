@@ -1,0 +1,21 @@
+// Flex Container
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// General configs
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    background-color: $dark-cyan;
+    font-family: $standar-font;
+}

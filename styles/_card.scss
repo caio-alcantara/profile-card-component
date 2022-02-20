@@ -1,0 +1,102 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+    margin: 10px ;
+
+    hr {
+        border: 0.1px solid $dark-gray;
+        width: 100%;
+    }
+
+    .card-background {
+        position: relative;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .profile {
+        width: 96px;
+        border-radius: 50%;
+        position: absolute;
+        top: 36%;
+        border: 5px solid white;
+    }
+
+    .name-age-city {
+        margin: 65px 0px -10px 0px;
+        text-align: center;
+        padding: 0px 0px 40px 0px;
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: $very-dark-desaturated-blue;
+        }
+
+        p {
+            margin-bottom: -10px;
+            color: $dark-grayish-blue;
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        span {
+            color: $dark-grayish-blue;
+            font-weight: 400;
+        }
+    }
+    .stats-block {
+        display: flex;
+        width: 100%;
+        padding: 7%;
+        justify-content: space-around;
+
+        .stat {
+            text-align: center;
+            font-size: 18px;
+            color: $very-dark-desaturated-blue;
+
+            .stat-number {
+                font-weight: 700;
+            }
+
+            .stat-title {
+                font-size: 12px;
+                font-weight: 400;
+                color: $dark-grayish-blue;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .stats-block {
+        flex-direction: column;
+
+        .stat {
+            margin-bottom: 10px;
+        }
+    }
+
+    .card {
+        .name-age-city {
+            margin: 69px 0px -10px 0px;
+        }
+    
+        .profile {
+            position: absolute;
+            top: 27%;
+        }
+    
+        .card-background {
+            position: relative;
+        }
+    }
+
+    
+}
